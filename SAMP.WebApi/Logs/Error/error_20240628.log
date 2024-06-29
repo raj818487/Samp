@@ -1,0 +1,423 @@
+2024-06-28T20:10:59.2270388+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:5c52f92d-860e-4a4f-ade7-534aa4161699 => Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AccUpdateDto -> AccReq
+SAMP.Application.DTOs.AccReqDto.AccUpdateDto -> SAMP.Domain.Entities.AccReq
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AccUpdateDto -> AccReq
+SAMP.Application.DTOs.AccReqDto.AccUpdateDto -> SAMP.Domain.Entities.AccReq
+   at lambda_method502(Closure, Object, AccReq, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccUpdateDto accreq, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 37
+   at lambda_method497(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:17:50.6390559+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:63ab9f79-e00b-485a-852c-4b87d94a1d50 => Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AccUpdateDto -> AccReq
+SAMP.Application.DTOs.AccReqDto.AccUpdateDto -> SAMP.Domain.Entities.AccReq
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AccUpdateDto -> AccReq
+SAMP.Application.DTOs.AccReqDto.AccUpdateDto -> SAMP.Domain.Entities.AccReq
+   at lambda_method72(Closure, Object, AccReq, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccUpdateDto accreq, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 40
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:22:34.2002926+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:81a53e3b-c896-4bbb-a157-4c74ad327889 => Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+ ---> System.FormatException: The string 'string' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+   at lambda_method303(Closure, AccReqCreateDto, AccReq, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method303(Closure, AccReqCreateDto, AccReq, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccUpdateDto accreqDto, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 48
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:24:19.7100450+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:edaaa3c5-7662-4715-a028-7ca22c0f3d52 => Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+ ---> System.FormatException: The string 'string' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+   at lambda_method303(Closure, AccReqCreateDto, AccReq, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method303(Closure, AccReqCreateDto, AccReq, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccUpdateDto accreqDto, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 48
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:26:10.7320067+05:30 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand ("7"ms) [Parameters=["@p39='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?', @p8='?' (Size = 6), @p9='?', @p10='?' (DbType = Decimal), @p11='?' (Size = 6), @p12='?', @p13='?' (Size = 19), @p14='?' (Size = 19), @p15='?' (Size = 6), @p16='?' (Size = 6), @p17='?' (DbType = Int32), @p18='?' (Size = 6), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Int32), @p22='?' (DbType = Int32), @p23='?' (DbType = Int32), @p24='?' (DbType = Int32), @p25='?' (Size = 6), @p26='?', @p27='?' (Size = 6), @p28='?' (Size = 6), @p29='?', @p30='?', @p31='?' (Size = 6), @p32='?' (DbType = Decimal), @p33='?' (Size = 6), @p34='?' (Size = 6), @p35='?' (DbType = Int32), @p36='?' (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"AccReq\" SET \"Age\" = @p0, \"BackupMobile\" = @p1, \"BookingRefId\" = @p2, \"BookingRefNo\" = @p3, \"Category\" = @p4, \"ChildrenCount\" = @p5, \"CityId\" = @p6, \"ConsentedAt\" = @p7, \"CreatedAt\" = @p8, \"CreatedById\" = @p9, \"Deposit\" = @p10, \"DeptName\" = @p11, \"Email\" = @p12, \"ExpCheckInTime\" = @p13, \"ExpCheckOutTime\" = @p14, \"FirstName\" = @p15, \"Gender\" = @p16, \"GentsCount\" = @p17, \"GuestRemarks\" = @p18, \"HaribhaktId\" = @p19, \"IsBkpMobWhatsApp\" = @p20, \"IsKeepingVehicle\" = @p21, \"IsLocalPhoneWhatsApp\" = @p22, \"IsPriMobWhatsApp\" = @p23, \"LadiesCount\" = @p24, \"LastName\" = @p25, \"LocalPhone\" = @p26, \"MiddleName\" = @p27, \"ModifiedAt\" = @p28, \"ModifiedById\" = @p29, \"NativePlace\" = @p30, \"OfficeRemarks\" = @p31, \"PaidRent\" = @p32, \"PrimaryMobile\" = @p33, \"Reference\" = @p34, \"ReqTransModeId\" = @p35, \"ReturnedDeposit\" = @p36, \"StatusId\" = @p37, \"UtsavId\" = @p38
+WHERE \"Id\" = @p39
+RETURNING 1;"
+2024-06-28T20:26:10.7466126+05:30 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type '"SAMP.Persistence.DataContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-06-28T20:26:10.7998404+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:d81809d5-dce3-48a1-bfad-2624a48aa600 => An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Audit.EntityFramework.DbContextHelper.SaveChangesGetAuditAsyncImpl(IAuditDbContext context, Func`1 baseSaveChanges, CancellationToken cancellationToken)
+   at Audit.EntityFramework.DbContextHelper.SaveChangesGetAuditAsyncImpl(IAuditDbContext context, Func`1 baseSaveChanges, CancellationToken cancellationToken)
+   at Audit.EntityFramework.DbContextHelper.SaveChangesAsync(IAuditDbContext context, Func`1 baseSaveChanges, CancellationToken cancellationToken)
+   at Audit.EntityFramework.AuditDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SAMP.Persistence.Services.ServiceBase`1.Update(T entity, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\Services\ServiceBase.cs:line 23
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccUpdateDto accreqDto, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 51
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:35:58.5377408+05:30 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand ("9"ms) [Parameters=["@p39='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 6), @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?', @p8='?' (Size = 5), @p9='?', @p10='?' (DbType = Decimal), @p11='?' (Size = 6), @p12='?', @p13='?' (Size = 6), @p14='?' (Size = 6), @p15='?' (Size = 6), @p16='?' (Size = 6), @p17='?' (DbType = Int32), @p18='?' (Size = 6), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Int32), @p22='?' (DbType = Int32), @p23='?' (DbType = Int32), @p24='?' (DbType = Int32), @p25='?' (Size = 6), @p26='?' (Size = 6), @p27='?' (Size = 6), @p28='?' (Size = 5), @p29='?', @p30='?', @p31='?' (Size = 6), @p32='?' (DbType = Decimal), @p33='?' (Size = 6), @p34='?' (Size = 6), @p35='?' (DbType = Int32), @p36='?' (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"AccReq\" SET \"Age\" = @p0, \"BackupMobile\" = @p1, \"BookingRefId\" = @p2, \"BookingRefNo\" = @p3, \"Category\" = @p4, \"ChildrenCount\" = @p5, \"CityId\" = @p6, \"ConsentedAt\" = @p7, \"CreatedAt\" = @p8, \"CreatedById\" = @p9, \"Deposit\" = @p10, \"DeptName\" = @p11, \"Email\" = @p12, \"ExpCheckInTime\" = @p13, \"ExpCheckOutTime\" = @p14, \"FirstName\" = @p15, \"Gender\" = @p16, \"GentsCount\" = @p17, \"GuestRemarks\" = @p18, \"HaribhaktId\" = @p19, \"IsBkpMobWhatsApp\" = @p20, \"IsKeepingVehicle\" = @p21, \"IsLocalPhoneWhatsApp\" = @p22, \"IsPriMobWhatsApp\" = @p23, \"LadiesCount\" = @p24, \"LastName\" = @p25, \"LocalPhone\" = @p26, \"MiddleName\" = @p27, \"ModifiedAt\" = @p28, \"ModifiedById\" = @p29, \"NativePlace\" = @p30, \"OfficeRemarks\" = @p31, \"PaidRent\" = @p32, \"PrimaryMobile\" = @p33, \"Reference\" = @p34, \"ReqTransModeId\" = @p35, \"ReturnedDeposit\" = @p36, \"StatusId\" = @p37, \"UtsavId\" = @p38
+WHERE \"Id\" = @p39
+RETURNING 1;"
+2024-06-28T20:35:58.5737041+05:30 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type '"SAMP.Persistence.DataContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-06-28T20:36:37.4630992+05:30 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand ("3"ms) [Parameters=["@p39='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 6), @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?', @p8='?' (Size = 5), @p9='?', @p10='?' (DbType = Decimal), @p11='?' (Size = 6), @p12='?', @p13='?' (Size = 6), @p14='?' (Size = 6), @p15='?' (Size = 6), @p16='?' (Size = 6), @p17='?' (DbType = Int32), @p18='?' (Size = 6), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Int32), @p22='?' (DbType = Int32), @p23='?' (DbType = Int32), @p24='?' (DbType = Int32), @p25='?' (Size = 6), @p26='?' (Size = 6), @p27='?' (Size = 6), @p28='?' (Size = 5), @p29='?', @p30='?', @p31='?' (Size = 6), @p32='?' (DbType = Decimal), @p33='?' (Size = 6), @p34='?' (Size = 6), @p35='?' (DbType = Int32), @p36='?' (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"AccReq\" SET \"Age\" = @p0, \"BackupMobile\" = @p1, \"BookingRefId\" = @p2, \"BookingRefNo\" = @p3, \"Category\" = @p4, \"ChildrenCount\" = @p5, \"CityId\" = @p6, \"ConsentedAt\" = @p7, \"CreatedAt\" = @p8, \"CreatedById\" = @p9, \"Deposit\" = @p10, \"DeptName\" = @p11, \"Email\" = @p12, \"ExpCheckInTime\" = @p13, \"ExpCheckOutTime\" = @p14, \"FirstName\" = @p15, \"Gender\" = @p16, \"GentsCount\" = @p17, \"GuestRemarks\" = @p18, \"HaribhaktId\" = @p19, \"IsBkpMobWhatsApp\" = @p20, \"IsKeepingVehicle\" = @p21, \"IsLocalPhoneWhatsApp\" = @p22, \"IsPriMobWhatsApp\" = @p23, \"LadiesCount\" = @p24, \"LastName\" = @p25, \"LocalPhone\" = @p26, \"MiddleName\" = @p27, \"ModifiedAt\" = @p28, \"ModifiedById\" = @p29, \"NativePlace\" = @p30, \"OfficeRemarks\" = @p31, \"PaidRent\" = @p32, \"PrimaryMobile\" = @p33, \"Reference\" = @p34, \"ReqTransModeId\" = @p35, \"ReturnedDeposit\" = @p36, \"StatusId\" = @p37, \"UtsavId\" = @p38
+WHERE \"Id\" = @p39
+RETURNING 1;"
+2024-06-28T20:36:37.4714257+05:30 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type '"SAMP.Persistence.DataContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-06-28T20:37:47.1796365+05:30 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand ("4"ms) [Parameters=["@p39='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 6), @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?', @p8='?' (Size = 5), @p9='?', @p10='?' (DbType = Decimal), @p11='?' (Size = 6), @p12='?', @p13='?' (Size = 25), @p14='?' (Size = 25), @p15='?' (Size = 6), @p16='?' (Size = 6), @p17='?' (DbType = Int32), @p18='?' (Size = 6), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Int32), @p22='?' (DbType = Int32), @p23='?' (DbType = Int32), @p24='?' (DbType = Int32), @p25='?' (Size = 6), @p26='?' (Size = 6), @p27='?' (Size = 6), @p28='?' (Size = 5), @p29='?', @p30='?', @p31='?' (Size = 6), @p32='?' (DbType = Decimal), @p33='?' (Size = 6), @p34='?' (Size = 6), @p35='?' (DbType = Int32), @p36='?' (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"AccReq\" SET \"Age\" = @p0, \"BackupMobile\" = @p1, \"BookingRefId\" = @p2, \"BookingRefNo\" = @p3, \"Category\" = @p4, \"ChildrenCount\" = @p5, \"CityId\" = @p6, \"ConsentedAt\" = @p7, \"CreatedAt\" = @p8, \"CreatedById\" = @p9, \"Deposit\" = @p10, \"DeptName\" = @p11, \"Email\" = @p12, \"ExpCheckInTime\" = @p13, \"ExpCheckOutTime\" = @p14, \"FirstName\" = @p15, \"Gender\" = @p16, \"GentsCount\" = @p17, \"GuestRemarks\" = @p18, \"HaribhaktId\" = @p19, \"IsBkpMobWhatsApp\" = @p20, \"IsKeepingVehicle\" = @p21, \"IsLocalPhoneWhatsApp\" = @p22, \"IsPriMobWhatsApp\" = @p23, \"LadiesCount\" = @p24, \"LastName\" = @p25, \"LocalPhone\" = @p26, \"MiddleName\" = @p27, \"ModifiedAt\" = @p28, \"ModifiedById\" = @p29, \"NativePlace\" = @p30, \"OfficeRemarks\" = @p31, \"PaidRent\" = @p32, \"PrimaryMobile\" = @p33, \"Reference\" = @p34, \"ReqTransModeId\" = @p35, \"ReturnedDeposit\" = @p36, \"StatusId\" = @p37, \"UtsavId\" = @p38
+WHERE \"Id\" = @p39
+RETURNING 1;"
+2024-06-28T20:37:47.1859058+05:30 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type '"SAMP.Persistence.DataContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-06-28T20:44:46.1305473+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:848cc77e-0d02-4e76-b636-3501a98727ba => Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Result`1 -> AccReqResponseDto
+Ardalis.Result.Result`1[[SAMP.Domain.Entities.AccReq, SAMP.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SAMP.Application.DTOs.AccReqDto.AccReqResponseDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Result`1 -> AccReqResponseDto
+Ardalis.Result.Result`1[[SAMP.Domain.Entities.AccReq, SAMP.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SAMP.Application.DTOs.AccReqDto.AccReqResponseDto
+   at lambda_method711(Closure, Object, AccReqResponseDto, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccReqCreateDto accreq, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 43
+   at lambda_method497(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:45:49.3872694+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:ade5bc27-315b-412f-98ea-ea473b76b519 => Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Type Map configuration:
+AccReqCreateDto -> AccReq
+AccReqCreateDto -> SAMP.Domain.Entities.AccReq
+
+Destination Member:
+ExpCheckInTime
+
+ ---> System.FormatException: The string 'string' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+   at lambda_method72(Closure, Object, AccReq, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method72(Closure, Object, AccReq, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccReqCreateDto accreq, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 37
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T20:48:04.0235163+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:7fae640f-b1fc-468c-96de-1834b4c612cb => Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Result`1 -> AccReqResponseDto
+Ardalis.Result.Result`1[[SAMP.Domain.Entities.AccReq, SAMP.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SAMP.Application.DTOs.AccReqDto.AccReqResponseDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Result`1 -> AccReqResponseDto
+Ardalis.Result.Result`1[[SAMP.Domain.Entities.AccReq, SAMP.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SAMP.Application.DTOs.AccReqDto.AccReqResponseDto
+   at lambda_method719(Closure, Object, AccReqResponseDto, ResolutionContext)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccReqCreateDto accreq, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 43
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-28T22:21:03.0183233+05:30 [ERR] (SAMP.Persistence.HttpGlobalExceptionFilter) Corelation Id:d15ddf05-79b9-4196-819e-3d9d109a7f30 => The property 'AccReq.Id' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key, first delete the dependent and invoke 'SaveChanges', and then associate the dependent with the new principal.
+System.InvalidOperationException: The property 'AccReq.Id' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key, first delete the dependent and invoke 'SaveChanges', and then associate the dependent with the new principal.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetPropertyModified(IProperty property, Boolean changeState, Boolean isModified, Boolean isConceptualNull, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectValueChange(InternalEntityEntry entry, IProperty property)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(InternalEntityEntry entry, HashSet`1 visited)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges(EntityEntry entry)
+   at Microsoft.EntityFrameworkCore.DbContext.Entry[TEntity](TEntity entity)
+   at SAMP.Persistence.Services.ServiceBase`1.UpdateEntity(Int32 id, T entity, CancellationToken cancellationToken)
+   at SAMP.WebAPI.Endpoints.AccReqEndpoints.Update.HandleAsync(AccReqUpdateDto request, CancellationToken cancellationToken) in C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.WebApi\Endpoints\AccReqEndpoints\Update.cs:line 39
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

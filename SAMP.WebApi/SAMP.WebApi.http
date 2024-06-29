@@ -1,0 +1,6 @@
+@SAMP.WebApi_HostAddress = http://localhost:5249
+
+GET {{SAMP.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

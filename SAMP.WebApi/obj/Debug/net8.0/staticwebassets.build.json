@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MpSuhOtTGlXJhC7ikAB9e0KtaISUhLcAnwpXqo+0tPc=",
+  "Source": "SAMP.WebApi",
+  "BasePath": "_content/SAMP.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
