@@ -1,0 +1,13 @@
+﻿using AutoMapper;
+using SAMP.Domain.Entities;
+
+namespace SAMP.Application.Features.<Entity>Features.Create<Entity>;
+
+public sealed class Create<Entity>Mapper : Profile
+{
+    public Create<Entity>Mapper()
+    {
+        CreateMap<Create<Entity>Request, <Entity>>();
+        CreateMap<<Entity>, Create<Entity>Response>();
+    }
+}

@@ -1,0 +1,34 @@
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.deps.json
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.runtimeconfig.json
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.AssemblyInfo.cs
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.App.D31469BD.Up2Date
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\refint\SAMP.Application.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.genruntimeconfig.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Application\obj\Debug\net8.0\ref\SAMP.Application.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.csproj.AssemblyReference.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.AssemblyInfoInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.AssemblyInfo.cs
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.csproj.CoreCompileInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\refint\SAMP.Application.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.deps.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.runtimeconfig.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Application.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.App.D31469BD.Up2Date
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\SAMP.Application.genruntimeconfig.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Application\obj\Debug\net8.0\ref\SAMP.Application.dll

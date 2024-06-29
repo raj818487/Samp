@@ -1,0 +1,29 @@
+﻿using AutoMapper;
+using SAMP.Application.Repositories;
+using SAMP.Domain.Entities;
+using MediatR;
+
+namespace SAMP.Application.Features.<Entity>Features.Create<Entity>;
+
+public sealed class Create<Entity>Handler : IRequestHandler<Create<Entity>Request, Create<Entity>Response>
+{
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly I<Entity>Repository _<Entity>Repository;
+    private readonly IMapper _mapper;
+
+    public Create<Entity>Handler(IUnitOfWork unitOfWork, I<Entity>Repository <Entity>Repository, IMapper mapper)
+    {
+        _unitOfWork = unitOfWork;
+        _<Entity>Repository = <Entity>Repository;
+        _mapper = mapper;
+    }
+    
+    public async Task<Create<Entity>Response> Handle(Create<Entity>Request request, CancellationToken cancellationToken)
+    {
+        var <Entity> = _mapper.Map<<Entity>>(request);
+        _<Entity>Repository.Create(<Entity>);
+        await _unitOfWork.Save(cancellationToken);
+
+        return _mapper.Map<Create<Entity>Response>(<Entity>);
+    }
+}

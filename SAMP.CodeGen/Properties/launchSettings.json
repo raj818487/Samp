@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SAMP.CodeGen": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

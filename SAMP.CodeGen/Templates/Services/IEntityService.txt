@@ -1,0 +1,15 @@
+﻿using Ardalis.Result;
+using SAMP.Application.Features.<Entity>Feature;
+using SAMP.Domain.Entities;
+
+namespace SAMP.Application.Services;
+
+public interface I<Entity>Service
+{
+    Task<Result> Create(Create<Entity>Request <Entity>, CancellationToken cancellationToken);
+    Task<Result> Update(Create<Entity>Request <Entity>, CancellationToken cancellationToken);
+    Task<Result> Delete(Guid id, CancellationToken cancellationToken);
+    Task<Result<<Entity>>> GetById(Guid id, CancellationToken cancellationToken);
+    Task<Result<IEnumerable<<Entity>>>> List(CancellationToken cancellationToken);
+    //Add additional methods as required
+}

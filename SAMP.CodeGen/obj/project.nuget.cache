@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQLmMtSdYWw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\parma\\OneDrive\\Documents\\SAMP (2)\\SAMP\\SAMP.CodeGen\\SAMP.CodeGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\parma\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\parma\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\parma\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\parma\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

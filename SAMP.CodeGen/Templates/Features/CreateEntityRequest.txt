@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SAMP.Application.Features.<Entity>Feature;
+
+public class Create<Entity>Request
+{
+    /*
+    Add required properties
+    [Required]
+    public string Name { get; set; } = "";
+
+    [Required]
+    [EmailAddress]
+    public string Email { get; set; } = "";
+    */
+}
+
