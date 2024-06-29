@@ -1,0 +1,26 @@
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.deps.json
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.runtimeconfig.json
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.AssemblyInfo.cs
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\refint\SAMP.Domain.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.genruntimeconfig.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Domain\obj\Debug\net8.0\ref\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.deps.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.runtimeconfig.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.AssemblyInfoInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.AssemblyInfo.cs
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\refint\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\SAMP.Domain.genruntimeconfig.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Domain\obj\Debug\net8.0\ref\SAMP.Domain.dll
