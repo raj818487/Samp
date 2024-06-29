@@ -1,0 +1,38 @@
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.deps.json
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.runtimeconfig.json
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Application.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Application.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.csproj.AssemblyReference.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.AssemblyInfoInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.AssemblyInfo.cs
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Per.5860E6E2.Up2Date
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\refint\SAMP.Persistence.dll
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.pdb
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.genruntimeconfig.cache
+C:\Users\PC\Pictures\SAMP\SAMP.Persistence\obj\Debug\net8.0\ref\SAMP.Persistence.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.deps.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.runtimeconfig.json
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Persistence.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Application.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Domain.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Application.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\bin\Debug\net8.0\SAMP.Domain.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.csproj.AssemblyReference.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.AssemblyInfoInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.AssemblyInfo.cs
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Per.5860E6E2.Up2Date
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\refint\SAMP.Persistence.dll
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.pdb
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\SAMP.Persistence.genruntimeconfig.cache
+C:\Users\parma\OneDrive\Documents\SAMP (2)\SAMP\SAMP.Persistence\obj\Debug\net8.0\ref\SAMP.Persistence.dll
